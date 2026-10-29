@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nextshot"
+version = "0.3.0"
+description = "Invisible cuts between AI video shots, even when the camera is moving (ComfyUI)."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Gilles Boulanger"}]
+requires-python = ">=3.10"
+dependencies = ["numpy", "opencv-python-headless"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+nextshot = "nextshot.cli:main"
+
+[tool.setuptools]
+packages = ["nextshot"]
+
+[tool.setuptools.package-data]
+nextshot = []
