@@ -78,7 +78,7 @@ percent is ordinary frame-to-frame variation.
 | one still frame at each end | +11%, foreground rock vanishes | +44% | camera speed and scenery jump |
 | **nextshot** (25 real frames in, cuts measured) | +7%, rock stays | +3% | used in the final film |
 
-The demo video (`nextshot_demo.mp4`, attached to the release, about 1 minute) shows the
+The demo video (`nextshot_demo_v2.mp4`, attached to the release, about 1 minute) shows the
 three ways this went wrong while making the film (camera rushes in then backs away,
 head morph, foreground rock vanishing at the cut), what nextshot does about each, a
 frame-by-frame chart of the measured camera motion with the two chosen cuts, and the
