@@ -8,6 +8,10 @@ is moving, a single frame says *where* the camera is but not *how fast or which
 way it is going*, so shot B starts with a jolt. nextshot measures the camera's
 motion at the end of shot A and carries it into shot B, then checks the cut.
 
+
+https://github.com/user-attachments/assets/5a56da33-226e-487e-ac61-d9048e1ae526
+
+
 ## Install
 
 ```
